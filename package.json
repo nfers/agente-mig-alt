@@ -1,0 +1,29 @@
+{
+  "name": "migradorweb",
+  "version": "1.0.0",
+  "description": "Agente Migrador do concorrente Alterdata",
+  "main": "server.ts",
+  "author": "Nayara Ferreira",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev:server": "yarn workspace @migradorweb/api dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "eslintIgnore": [
+    "node_modules",
+    "packages/*/dist"
+  ],
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "eslint": "^7.10.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  }
+}
