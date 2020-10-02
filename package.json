@@ -12,6 +12,13 @@
   "workspaces": [
     "packages/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nfers/agente-mig-alt"
+  },
+  "bugs": {
+    "url": "https://github.com/nfers/agente-mig-alt/issues"
+  },
   "eslintIgnore": [
     "node_modules",
     "packages/*/dist"
