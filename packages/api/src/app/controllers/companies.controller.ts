@@ -11,7 +11,7 @@ export class CompaniesController {
             return res.status(400).json({error: 'No Companies exist'});
         }
         
-        return res.status(200).json({data: {companies}}); 
+        return res.status(200).json(companies); 
     }
 }
 
