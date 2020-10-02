@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    body {
-        color: ${props => (props.whiteColor ? 'white' : 'black')};
-      }
-`
+
+`;
+
+export { GlobalStyle }
